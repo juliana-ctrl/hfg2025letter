@@ -1,26 +1,19 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>하나금융그룹 DIY 연하장📮</title>
+    <title>Image Display on Button Click</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>하나금융그룹 DIY 연하장📮</h1>
-    <form id="letterForm">
-        <label for="recipient">수신인:</label>
-        <input type="text" id="recipient" placeholder="[   ####   ]"><br>
-        
-        <label for="content">내용:</label>
-        <textarea id="content" placeholder="[   ####   ]"></textarea><br>
-        
-        <label for="sender">발신인:</label>
-        <input type="text" id="sender" placeholder="[   ####   ]"><br>
-        
-        <button type="button" id="generateButton">생성하기</button>
-    </form>
-    <canvas id="letterCanvas"></canvas>
+    <h1>이미지 생성기</h1>
+    <button id="generate-button">생성하기</button>
+
+    <div class="image-container" id="image-container">
+        <img src="your-image-url.jpg" alt="Generated Image" id="generated-image"> <!-- 이미지 URL을 본인 이미지로 변경 -->
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>

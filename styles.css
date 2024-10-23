@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.image-container {
+    display: none; /* 초기에는 숨김 */
+    margin-top: 20px; /* 이미지 위쪽 여백 */
+}
+
+.image-container img {
+    max-width: 100%; /* 이미지가 부모 요소에 맞게 크기 조정 */
+    height: auto; /* 비율 유지 */
+}
