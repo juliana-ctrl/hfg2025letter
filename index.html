@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>하나금융그룹 DIY 연하장📮</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>하나금융그룹 DIY 연하장📮</h1>
+    <form id="letterForm">
+        <label for="recipient">수신인:</label>
+        <input type="text" id="recipient" placeholder="[   ####   ]"><br>
+        
+        <label for="content">내용:</label>
+        <textarea id="content" placeholder="[   ####   ]"></textarea><br>
+        
+        <label for="sender">발신인:</label>
+        <input type="text" id="sender" placeholder="[   ####   ]"><br>
+        
+        <button type="button" id="generateButton">생성하기</button>
+    </form>
+    <canvas id="letterCanvas"></canvas>
+    <script src="script.js"></script>
+</body>
+</html>
