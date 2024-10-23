@@ -9,7 +9,7 @@ document.getElementById('generateButton').addEventListener('click', function() {
     canvas.height = 400; // 배경지 크기
 
     const backgroundImage = new Image();
-    backgroundImage.src = 'path/to/your/image.png'; // 여기 배경지 이미지 경로 입력
+    backgroundImage.src = 'C:\Users\user\Documents\GitHub\hfg2025letter\letterimg.png'; // 여기 배경지 이미지 경로 입력
 
     backgroundImage.onload = function() {
         ctx.drawImage(backgroundImage, 0, 0, canvas.width, canvas.height);
